@@ -10,7 +10,7 @@ const storedScore = document.querySelector(".score");
 let timerInterval;
 
 
-let secondsLeft = 170;
+let secondsLeft = 120;
 function setTime() {
   timerInterval = setInterval(function () {
     secondsLeft--;
