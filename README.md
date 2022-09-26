@@ -6,5 +6,10 @@ This Project is about making a quiz using Javascript. The quiz has 5 questions w
 Just click the Start Quiz button to get the quiz started.
 
 
+<h3>GitHub Link </h3> https://github.com/Tvanmeveren/The-Quiz.git
+
+<h3> Live site Link </h3>  https://tvanmeveren.github.io/The-Quiz/
+
+
 ![image](https://user-images.githubusercontent.com/111665712/192390039-5a5d36ad-728f-4a4f-82fd-f0a940a48323.png)
 
