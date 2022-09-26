@@ -1,9 +1,9 @@
 
 //-------------------------------------------------------------Here is where i get the score info from the local storage--------------------------
 
-const namesEnter = document.querySelector("#yesnames");
-const listNames = document.querySelector("#lastscores");
-const eventNames = document.querySelector("#finalscore");
+const namesEnter = document.querySelector("#names");
+const listNames = document.querySelector("#Endscores");
+const eventNames = document.querySelector("#Highscore");
 var name1 = [];
 
 function listingNames() {
@@ -11,11 +11,11 @@ function listingNames() {
   listNames.innerHtml = "";
   //-------------------------------------------------here is the loops for the names---------------------------------------------------------
   for (var i = 0; i < name1.length; i++) {
-    var nightName = name1[i];
+    var coolName = name1[i];
 
     //--------------------------------------------------------gives the html a list---------------------------------------------------------
     var li = document.createElement("li");
-    li.textContent = nightName;
+    li.textContent = coolName;
     li.setAttribute("data-index", i);
 
     listNames.appendChild(li);
