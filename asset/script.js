@@ -38,7 +38,7 @@ const questions = [
     query: "How do you create a function in JavaScript?",
     answers: [
       { text: "function = myFunction()" },
-      { text: "function:myFunction" },
+      { text: "function: myFunction" },
       { text: "function:my-Function" },
       { text: "function myFunction()", correct: true },
     ],
