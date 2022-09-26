@@ -23,7 +23,7 @@ function listingNames() {
 }
 //---------------------------------------------------------------------takes name from local storage--------------------------------------------
 function init() {
-  var storedNames = JSON.parse(localStorage.getItem("namie"));
+  var storedNames = JSON.parse(localStorage.getItem("name1"));
   if (storedNames !== null) {
     name1 = storedNames;
   }
@@ -33,7 +33,7 @@ function init() {
 //---------------------------------------------------------------Stores names--------------------------------------------------------------------
 function storedNames() {
   //stringify and sends names to local storage
-  localStorage.setItem("namie", JSON.stringify(name1));
+  localStorage.setItem("name1", JSON.stringify(name1));
 }
 
 eventNames.addEventListener("submit", function (event) {
