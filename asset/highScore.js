@@ -1,4 +1,6 @@
 
+//-------------------------------------------------------------Here is where i get the score info from the local storage--------------------------
+
 let list = document.getElementById("highScoreList")
 let clearButton= document.getElementById("clear")
 
