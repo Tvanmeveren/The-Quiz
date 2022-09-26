@@ -9,7 +9,7 @@ const corWrong = document.querySelector(".corWrong");
 const storedScore = document.querySelector(".score");
 let timerInterval;
 
-
+//----------------------------Here is where I set the time to 120 seconds--------------------------------
 let secondsLeft = 120;
 function setTime() {
   timerInterval = setInterval(function () {
@@ -23,7 +23,7 @@ function setTime() {
   }, 1000);
 }
 
-
+//------------------------------------here is where i put the questions------------------------------
 const questions = [
   {
     query: "inside Which HTML element do we put the JavaScript?",
@@ -77,11 +77,11 @@ const questions = [
 function handleAnswer(answer, questionIndex) {
   console.log(answer);
 
-
+//--------------------------------------------------Here is where you see if the answer is correct or not-------
   const isCorrect = answer.correct === true;
 
 
-
+//-------------------------------------Here is where it subtracts time for a wrong answer----------------------------------------
   if (isCorrect) {
     corWrong.textContent = "Correct";
   } else {
@@ -90,13 +90,13 @@ function handleAnswer(answer, questionIndex) {
   }
 
 
- 
+//-----------------------------------Brings you to the next question------------------------------------------------------ 
   askQuestion(questionIndex + 1);
 }
 
 const buttons = [buttonB1, buttonB2, buttonB3, buttonB4];
 
-
+//-------------------------------------------------Shows questions on the screen,shows text on the button, and clears questions so that the buttons can be used again 
 function askQuestion(index) {
   const question = questions[index];
   testQuestion.textContent = question.query;
@@ -108,7 +108,7 @@ function askQuestion(index) {
     const answer = question.answers[buttonIndex];
   
     button.textContent = answer.text;
-   
+//----------------------------------------------------------here is where i put the event handler--------------------------------------------------------------------   
     button.addEventListener("click", (e) => {
       handleAnswer(answer, index);
     });
