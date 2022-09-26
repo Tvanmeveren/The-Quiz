@@ -1,6 +1,4 @@
-//on highscoare page
-//get score history from local storage
-// loop through score history and put each game details on the page
+
 let list = document.getElementById("highScoreList")
 let clearButton= document.getElementById("clear")
 
