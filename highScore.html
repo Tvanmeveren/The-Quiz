@@ -12,12 +12,13 @@
 <body>
 
     <div>
-        <h1 class="final">Highscore page</h1>
+        <h1 class="High">Highscore page</h1>
+        <ol id="highScoreList"></ol>
 
      
-        <form id="finalscore" method="post">
-            <label for="yesnames">Please enter name:</label>
-            <input type="text" name="yesnames" id="yesnames">
+        <form id="Highscore" method="post">
+            <label for="names">Please enter name:</label>
+            <input type="text" name="names" id="names">
         </form>
 
         <p>Latest to Play</p>
@@ -26,8 +27,15 @@
 
     </div>
 
+    <div id="buttons">
+        <a href="index.html"><button class="button">Go Back</button></a>
+        <button id="clear" class="button">Clear High Scores</button>
+        <script src="asset/script2.js"></script>
+        
+    </div>
 
-<script src="asset/script2.js"></script>
+
+
 
 
 </body>
