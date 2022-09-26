@@ -1,11 +1,10 @@
-# The-Password
+# The-Quiz
 
 <h3>Description:</h3>
-The-Password is a project that randomly generates a password for users looking for a complex password. it can create a password from 8-128 characters. this is an easier way to get a password than to install a password maker. 
+This Project is about making a quiz using Javascript. The quiz has 5 questions with a 120 timer to finish if you get the answer wrong 10 seconds will be taken off the timer, at the end of the quiz you will be able to put in your name for the high score list. 
 
-<h3>Deployed Website:</h3>  https://tvanmeveren.github.io/The-Password/
-
-Just click the generate button, then answer the prompts to get your brand new password!
+Just click the Start Quiz button to get the quiz started.
 
 
-![image](https://user-images.githubusercontent.com/111665712/191158104-75188b42-e942-4d93-9d3f-c654a1578e63.png)
+![image](https://user-images.githubusercontent.com/111665712/192390039-5a5d36ad-728f-4a4f-82fd-f0a940a48323.png)
+
